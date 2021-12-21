@@ -185,8 +185,6 @@ const person = {
   };
 
 
-
-
 // task 15: từ object person trên lấy ra key của nó. result => ['firstName', 'lastName']
 function displayAttributes(){
     const keys = Object.keys(person)
@@ -227,6 +225,8 @@ function convertOject(){
     const object = {...arrString }
     console.log(object );
 }
+
+
 // task 20: cho array boolean bên dưới, kiểm tra output của array này là true hoặc false
 const arrBoolean = [true, true, false];
 function checkOutput(){
@@ -294,10 +294,9 @@ function makeAround(){
     let numb2 = 1.4; // => làm tròn lên số bên.  result mong đợi = 1
     console.log(Math.floor(numb2));
 }
+
+
 // task 24: Thực hiện nối chuỗi dữa vào các biến bên dưới. kết quả mong đợi. => 'name: user - age: 21 - class: classAbc'
-
-
-
 function connectString(){
     let name = "user";
     let age = 21;
